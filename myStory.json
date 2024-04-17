@@ -1,0 +1,153 @@
+{
+    "Title": "Ravenwood Manor: The Mystery of the Forgotten Soul",
+    "Credits": "Created by Koushik Vasa (kvasa@ucsc.edu).",
+    "InitialLocation": "Entrance",
+    "Story": "As a seasoned detective, renowned for your sharp wit and keen eye for detail, you've been called to Ravenwood Manor to investigate the mysterious disappearance of Amelia Devereaux, a wealthy heiress. Your objective is clear: unravel the secrets hidden within the mansion's walls and uncover the truth behind Amelia's fate. With rumors swirling about the manor's dark past and its connection to the Devereaux family curse, the task ahead won't be easy. Your senses are heightened as you approach the imposing gates of Ravenwood Manor, knowing that your skills will be put to the test in this chilling tale of deception and intrigue.",
+    "Locations": {
+        "Entrance": {
+            "Body": "You stand before the imposing gates of Ravenwood Manor, a shadowy silhouette against the moonlit sky. The air is heavy with anticipation as you prepare to enter the mansion.",
+            "Choices": [
+                {
+                    "Text": "Enter Ravenwood Manor",
+                    "Target": "MainHallway"
+                }
+            ]
+        },
+        "MainHallway": {
+            "Body": "You step into the grand foyer of Ravenwood Manor, greeted by the flickering light of ancient chandeliers and the musty scent of old books. Dust motes dance in the air, swirling around you as you survey your surroundings.",
+            "Choices": [
+                {
+                    "Text": "Explore the Library",
+                    "Target": "Library"
+                },
+                {
+                    "Text": "Investigate the Conservatory",
+                    "Target": "Conservatory"
+                }
+            ]
+        },
+        "Library": {
+            "Body": "The Library is a treasure trove of knowledge, with shelves lined with leather-bound volumes and delicate manuscripts. The soft glow of candlelight illuminates the room, casting long shadows on the walls.",
+            "Choices": [
+                {
+                    "Text": "Turn on the light",
+                    "Target": "LibraryClue"
+                },
+                {
+                    "Text": "Return to the Main Hallway",
+                    "Target": "MainHallway"
+                }
+            ]
+        },
+        "LibraryClue": {
+            "Body": "As you turn on the light, you notice a hidden switch concealed among the bricks. With a click, the room is bathed in light, revealing a secret passage behind one of the bookshelves.",
+            "Choices": [
+                {
+                    "Text": "Enter the secret passage",
+                    "Target": "DiningRoom"
+                }
+            ]
+        },
+        "DiningRoom": {
+            "Body": "The Dining Room is a grand space, with a long mahogany table set with fine china and crystal glassware. As you search the room, you spot another piece of the tarnished key hidden beneath a tablecloth.",
+            "Choices": [
+                {
+                    "Text": "Pick up the Piece of the Tarnished Key",
+                    "Target": "PickUpPieceDiningRoom"
+                },
+                {
+                    "Text": "Return to the Main Hallway",
+                    "Target": "MainHallway"
+                }
+            ]
+        },
+        "PickUpPieceDiningRoom": {
+            "Body": "You pick up the piece of the tarnished key, adding it to your collection as you edge closer to unlocking the secrets of Ravenwood Manor.",
+            "Choices": [
+                {
+                    "Text": "Proceed to the Kitchen",
+                    "Target": "Kitchen"
+                }
+            ]
+        },
+        "Kitchen": {
+            "Body": "The Kitchen is a hive of activity, with pots bubbling on the stove and the aroma of spices filling the air. Amidst the clutter, you spot the final piece of the tarnished key hidden among the utensils.",
+            "Choices": [
+                {
+                    "Text": "Pick up the Piece of the Tarnished Key",
+                    "Target": "PickUpPieceKitchen"
+                },
+                {
+                    "Text": "Return to the Dining Room",
+                    "Target": "DiningRoom"
+                }
+            ]
+        },
+        "PickUpPieceKitchen": {
+            "Body": "You pick up the final piece of the tarnished key, completing the set needed to unlock the hidden truths of Ravenwood Manor.",
+            "Choices": [
+                {
+                    "Text": "Proceed to the Garden",
+                    "Target": "Garden"
+                }
+            ]
+        },
+        "Conservatory": {
+            "Body": "The Conservatory is a lush oasis of greenery, with exotic plants and fragrant flowers filling the air with their sweet perfume. Sunlight filters through the glass ceiling, dappling the floor with golden light.",
+            "Choices": [
+                {
+                    "Text": "Push the button",
+                    "Target": "ConservatoryClue"
+                },
+                {
+                    "Text": "Return to the Main Hallway",
+                    "Target": "MainHallway"
+                }
+            ]
+        },
+        "ConservatoryClue": {
+            "Body": "As you push the button, a hidden panel slides open, revealing a dusty tome hidden within. The book contains cryptic symbols and mysterious diagrams, hinting at the secrets of Ravenwood Manor.",
+            "Choices": [
+                {
+                    "Text": "Take the dusty tome",
+                    "Target": "Study"
+                }
+            ]
+        },
+        "Study": {
+            "Body": "The Study is a cozy retreat, with shelves filled with leather-bound books and a crackling fire warming the room. The scent of pipe smoke lingers in the air, a reminder of previous occupants.",
+            "Choices": [
+                {
+                    "Text": "Unlock the desk drawer",
+                    "Target": "StudyClue"
+                },
+                {
+                    "Text": "Return to the Conservatory",
+                    "Target": "Conservatory"
+                }
+            ]
+        },
+        "StudyClue": {
+            "Body": "You search the desk and find a tarnished key hidden in one of the drawers. The key feels heavy in your hand, as if weighted with the secrets of Ravenwood Manor.",
+            "Choices": [
+                {
+                    "Text": "Take the tarnished key",
+                    "Target": "Cellar"
+                }
+            ]
+        },
+        "Cellar": {
+            "Body": "The Cellar is a dark and foreboding place, with stone walls and cobweb-covered barrels lining the shelves. The air is damp and musty, and you feel a shiver run down your spine as you descend into the darkness.",
+            "Choices": [
+                {
+                    "Text": "Proceed to the Garden",
+                    "Target": "Garden"
+                }
+            ]
+        },
+        "Garden": {
+            "Body": "You step into the garden, the final resting place of Amelia Devereaux. As you gaze upon her gravestone, a sense of closure washes over you. The mystery of Ravenwood Manor has been solved, and justice has been served.",
+            "Choices": []
+        }
+    }
+}
